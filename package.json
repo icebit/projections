@@ -1,0 +1,16 @@
+{
+  "name": "projections",
+  "version": "0.0.1",
+  "descriptions": "An online multiplayer game",
+  "contributors": [
+    {
+      "name": "Sam Harrison",
+      "email": "epicpotatopro@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.6",
+    "uuid": "^2.0.2"
+  }
+}
