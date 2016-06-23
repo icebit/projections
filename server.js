@@ -16,6 +16,9 @@ var floor;
 
 var players = {};
 
+// Routing
+app.use('/', express.static('static'));
+
 function init() {
   console.log('Projections v' + VERSION);
 

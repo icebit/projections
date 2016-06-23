@@ -1,0 +1,67 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Play', sans-serif;
+  background-color: #212122;
+}
+canvas {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: none;
+}
+.login {
+  color: #000;
+  font-size: 2em;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+.title {
+  text-align: center;
+  margin-top: 160px;
+  color: #2199ff;
+}
+.login-form {
+  text-align: center;
+}
+.username-box {
+  max-width: 380px;
+  width: 100%;
+  height: auto;
+  align-content: "center";
+  font-size: 1em;
+  background-color: #212122;
+  border-color: #2199ff;
+  color: #2199ff;
+}
+.submit {
+  max-width: 382px;
+  width: 100%;
+  height: auto;
+  align-content: "center";
+  font-size: 1em;
+  border: 0;
+  background-color: #2199ff;
+  color: #212122;
+}
+.form-separator {
+  height: 10px;
+}
+::-webkit-input-placeholder {
+  color: #444444;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #444444;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #444444;
+}
+:-ms-input-placeholder {
+  color: #444444;
+}
